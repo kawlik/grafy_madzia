@@ -28,12 +28,12 @@ void Prima( grafLista data, bool rysoj ) {
 
     wMST[0] = true;
 
-    int index = 0;
-    int weight = 0;
+    int indeks = 0;
+    int waga = 0;
 
     /*   *   *   *   *   *   *   *   *   *   */
 
-    while( index < data.wezV() - 1 ) {
+    while( indeks < data.wezV() - 1 ) {
 
         int min = INF;
         int v = -1;
@@ -58,8 +58,8 @@ void Prima( grafLista data, bool rysoj ) {
 
         if( v != -1 && w != -1 ) {
 
-            index++;
-            weight += min;
+            indeks++;
+            waga += min;
 
             wMST[v] = true;
             wMST[w] = true;
@@ -71,7 +71,7 @@ void Prima( grafLista data, bool rysoj ) {
     }
 
     if( rysoj ) {
-        cout << "MST weight = " << weight << endl;
+        cout << "MST waga = " << waga << endl;
     }
 
     /*   *   *   *   *   *   *   *   *   *   */
@@ -92,12 +92,12 @@ void Prima( grafMacierz data, bool rysoj ) {
 
     wMST[0] = true;
 
-    int index = 0;
-    int weight = 0;
+    int indeks = 0;
+    int waga = 0;
 
     /*   *   *   *   *   *   *   *   *   *   */
 
-    while( index < data.wezV() - 1 ) {
+    while( indeks < data.wezV() - 1 ) {
 
         int min = INF;
         int v = -1;
@@ -122,8 +122,8 @@ void Prima( grafMacierz data, bool rysoj ) {
 
         if( v != -1 && w != -1 ) {
 
-            index++;
-            weight += min;
+            indeks++;
+            waga += min;
 
             wMST[v] = true;
             wMST[w] = true;
@@ -135,7 +135,7 @@ void Prima( grafMacierz data, bool rysoj ) {
     }
 
     if( rysoj ) {
-        cout << "MST weight = " << weight << endl;
+        cout << "MST waga = " << waga << endl;
     }
 
     /*   *   *   *   *   *   *   *   *   *   */

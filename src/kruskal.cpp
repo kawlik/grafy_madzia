@@ -87,7 +87,7 @@ void Kruskal( grafMacierz data, bool rysoj ) {
 
     /*   *   *   *   *   *   *   *   *   *   */
 
-    // delete [] tablica;
+    delete [] tablica;
 }
 
 /*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */
@@ -135,5 +135,5 @@ void Kruskal( grafLista data, bool rysoj ) {
 
     /*   *   *   *   *   *   *   *   *   *   */
 
-    // delete [] tablica;
+    delete [] tablica;
 }
