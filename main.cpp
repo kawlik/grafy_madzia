@@ -3,6 +3,8 @@
 
 /*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */
 
+void test( int gestosc, int powtorzenia, int rozmiar );
+
 /*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */
 
 int main( int argc, char * argv[] ) {

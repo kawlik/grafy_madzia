@@ -22,11 +22,11 @@ grafMacierz::grafMacierz( int V ) {
 
 grafMacierz::~grafMacierz() {
     
-    for( int i = 0; i < V; i++ ) {
-        delete [] this->macierz[i];
-    }
+    // for( int i = 0; i < V; i++ ) {
+    //     delete [] this->macierz[i];
+    // }
 
-    delete [] this->macierz;
+    // delete [] this->macierz;
 }
 
 /*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */

@@ -76,7 +76,7 @@ void Prima( grafLista data, bool rysoj ) {
 
     /*   *   *   *   *   *   *   *   *   *   */
     
-    delete [] wMST;
+    // delete [] wMST;
 }
 
 /*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */
@@ -140,5 +140,5 @@ void Prima( grafMacierz data, bool rysoj ) {
 
     /*   *   *   *   *   *   *   *   *   *   */
     
-    delete [] wMST;
+    // delete [] wMST;
 }
