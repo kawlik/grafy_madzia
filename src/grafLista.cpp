@@ -251,4 +251,9 @@ void grafLista::wypelnij( int gestosc ) {
             this->dodajKrawedz( i, j, losoj<int>( 1, this->V ));
         }
     }
+
+    //  zapewnia spojnosc grafu
+    for( int i = 1; i < this->V; i++ ) {
+        this->dodajKrawedz( i, i - 1, INF - 1);
+    }
 }
